@@ -1,0 +1,12 @@
+/* style.css -- Controlling the style of the page
+ * Includes background colors, fonts for the page content, etc.
+ * author: David Clark
+ */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFF2CC;
+}
