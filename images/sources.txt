@@ -9,3 +9,5 @@ Sources for Images:
 - Last Supper (Home/Gallery): https://en.wikipedia.org/wiki/Leonardo_da_Vinci#/media/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg
 
 - Mona Lisa (Commissions): https://en.wikipedia.org/wiki/Leonardo_da_Vinci#/media/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+
+- Portrait (Favicon): https://en.wikipedia.org/wiki/Leonardo_da_Vinci#/media/File:Francesco_Melzi_-_Portrait_of_Leonardo.png
