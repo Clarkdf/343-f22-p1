@@ -4,34 +4,35 @@
  */
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 44pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44pt;
 }
 
 body {
-    background-color: #FFF2CC;
+  background-color: #FFF2CC;
 }
 
 #nav_bar {
-    margin: 0;
-    display: flex;
-    width: 100vw;;
-    align-items: center;
-    justify-content: space-around;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
 
 }
 
 /* Mobile support */
-@media screen and (max-width:
-    1240px) {
-      /* do mobile things here */
-      #nav_bar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 25vh;
-      }
-    }
+@media screen and (max-width: 1240px) {
+
+  /* nav_bar is smaller and goes vertical instead of horizontal */
+  #nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25vh;
+    font-size: 16pt;
+  }
+}
