@@ -30,6 +30,8 @@ body {
       /* do mobile things here */
       #nav_bar {
         display: flex;
-        /* Make nav bar vertical instead of horizontal */
+        flex-direction: column;
+        align-items: flex-start;
+        height: 25vh;
       }
     }
