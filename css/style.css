@@ -1,4 +1,4 @@
-/* style.css -- Controlling the style of the page
+/* style.css -- Controlling the style of all pages
  * Includes background colors, fonts for the page content, etc.
  * author: David Clark
  */
@@ -10,6 +10,11 @@ h1 {
 
 body {
   background-color: #FFF2CC;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
 }
 
 #nav_bar {
