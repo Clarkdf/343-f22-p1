@@ -14,14 +14,16 @@ span {
 
 /* Mobile support */
 @media screen and (max-width: 1240px) {
+    /* Image is enlarged */
     img {
         width: 100%;
     }
+    /* Page is now left-oriented instead of center oriented */
     span {
         justify-content: flex-start;
         align-items: flex-start;
     }
-
+    /* Title font is smaller */
     h1 {
         font-size: 36pt;
     }
