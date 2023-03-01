@@ -17,6 +17,11 @@ p {
   font-size: 18pt;
 }
 
+figcaption {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+}
+
 #nav_bar {
   margin: 0;
   display: flex;
@@ -40,4 +45,20 @@ p {
     height: 25vh;
     font-size: 16pt;
   }
+
+  /* Title font is smaller */
+  h1 {
+    font-size: 36pt;
+  }
+
+  /* Paragraph font is smaller */
+  p {
+    font-size: 16pt;
+  }
+
+  /* Fig caption is smaller */
+  figcaption {
+    font-size:12pt;
+  }
+
 }

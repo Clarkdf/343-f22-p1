@@ -3,5 +3,29 @@
  */
 
 img {
-    height: 45rem;
+    height: 30rem;
+}
+
+figure {
+    display: flex;
+    gap: 7rem;
+}
+
+figure.span {
+    flex-direction: column;
+}
+
+/* Mobile support */
+@media screen and (max-width: 1240px) {
+
+    /* Picture is smaller */
+    img {
+        height: 25rem;
+    }
+
+  /* Displays from top to bottom (rather than left-to-right)*/ 
+  figure {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

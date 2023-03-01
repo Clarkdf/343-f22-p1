@@ -24,8 +24,4 @@ span {
         justify-content: flex-start;
         align-items: flex-start;
     }
-    /* Title font is smaller */
-    h1 {
-        font-size: 36pt;
-    }
 }
