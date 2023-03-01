@@ -1,0 +1,48 @@
+/* about-commissions.css -- Controlling the style of the about and commissions page 
+ * These pages are nearly identical in their formatting, so it makes sense for them
+ * to share a singular css page (in addition to the overall style.css format doc)
+ * author: David Clark
+ */
+
+img {
+    height: 30rem;
+}
+
+figure {
+    display: flex;
+    gap: 7rem;
+}
+
+figure.span {
+    flex-direction: column;
+}
+
+form {
+    padding-top: 4rem;
+    padding-left: 15rem;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+/* Mobile support */
+@media screen and (max-width: 1240px) {
+
+    /* Picture is smaller */
+    img {
+        height: 25rem;
+    }
+
+    /* Displays from top to bottom (rather than left-to-right)*/
+    figure {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* No need for padding when screen is compresssed */
+    form {
+        padding: 0;
+    }
+}
