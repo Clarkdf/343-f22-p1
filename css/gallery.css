@@ -5,13 +5,14 @@
 main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 5rem;
 }
 
 figure {
-    max-height: 26rem;
-    max-width: 16rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 img {
