@@ -12,6 +12,10 @@ span {
     justify-content: center;
 }
 
+h1 {
+    text-align: center;
+}
+
 
 /* Mobile support */
 @media screen and (max-width: 1240px) {
