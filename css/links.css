@@ -4,4 +4,20 @@
 
 ul {
     list-style: none;
+    font-size: 44pt;
+}
+
+li {
+    border-style:solid;
+    border-radius: 10%;
+    margin-bottom: 15vh;
+    background-color: lightgray;
+    color:black;
+    text-align: center;
+}
+
+
+main {
+    display:flex;
+    justify-content: center;
 }
