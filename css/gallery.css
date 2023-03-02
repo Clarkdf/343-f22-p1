@@ -2,14 +2,21 @@
  * author: David Clark
  */
 
-figure {
+main {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 5rem;
 }
 
+figure {
+    max-height: 26rem;
+    max-width: 16rem;
+}
+
 img {
-    height: 25rem;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -18,7 +25,7 @@ img {
 
 
     /* Displays from top to bottom (rather than left-to-right)*/
-    figure {
+    main {
         flex-direction: column;
         gap: 2rem;
     }
