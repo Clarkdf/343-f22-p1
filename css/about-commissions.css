@@ -8,13 +8,9 @@ img {
     height: 30rem;
 }
 
-figure {
-    display: flex;
-    gap: 7rem;
-}
-
-figure.span {
-    flex-direction: column;
+main {
+    display:flex;
+    gap: 2rem;
 }
 
 form {
@@ -35,10 +31,8 @@ label {
         height: 25rem;
     }
 
-    /* Displays from top to bottom (rather than left-to-right)*/
-    figure {
+    main {
         flex-direction: column;
-        gap: 2rem;
     }
 
     /* No need for padding when screen is compresssed */
