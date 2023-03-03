@@ -3,13 +3,12 @@
  */
 
 img {
-    padding-top: 20px;
+    padding-top: 35px;
     width: 75%;
 }
 
-span {
+div {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -23,9 +22,10 @@ h1 {
     /* Image is enlarged */
     img {
         width: 100%;
+        padding-top: 25px;
     }
     /* Page is now left-oriented instead of center oriented */
-    span {
+    div {
         justify-content: flex-start;
         align-items: flex-start;
     }
