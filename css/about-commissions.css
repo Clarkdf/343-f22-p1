@@ -4,26 +4,30 @@
  * author: David Clark
  */
 
+/* Image height should be this. */
 img {
     height: 30rem;
 }
 
+/* Flex display, have a gap between figure and text. */
 main {
     display:flex;
     gap: 2rem;
 }
 
+/* Form should be moved */
 form {
     padding-top: 4rem;
     padding-left: 15rem;
 }
 
+/* Form labels should be arial and 14pt fonted */
 label {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
 
-/* Mobile support */
+/* When the screen shrinks to a specific size (intended for mobile) */
 @media screen and (max-width: 1240px) {
 
     /* Picture is smaller */
@@ -31,6 +35,7 @@ label {
         height: 25rem;
     }
 
+    /* Page is now vertical */
     main {
         flex-direction: column;
     }

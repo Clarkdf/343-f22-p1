@@ -2,12 +2,22 @@
  * author: David Clark
  */
 
+/* No bulletins on list, 40pt size, and Arial font */
 ul {
     list-style: none;
     font-size: 40pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* List items rules (buttons on the link page):
+ * Solid border
+ * rounded border edges
+ * Margin on the bottom
+ * Black color
+ * aligned at the center (may change this)
+ * border color is darker
+ * background color is lighter
+ */
 li {
     border-style:solid;
     border-radius: 10%;
@@ -19,6 +29,7 @@ li {
 }
 
 
+/* Main is a flex-box that centers content */
 main {
     display:flex;
     justify-content: center;

@@ -3,45 +3,58 @@
  * author: David Clark
  */
 
+/* All h1 text must be Arial and 44pt font sized (unless specified else-where) */
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 44pt;
 }
 
+/* Website must have a tan background color */
 body {
   background-color: #FFF2CC;
 }
 
+/* Paragraph Text must be 18pt font and Times New Roman (unless specified otherwise) */
 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18pt;
 }
 
+/* Figure captions must be Times New Roman and 14pt size */ 
 figcaption {
   font-family: 'Times New Roman', Times, serif;
   font-size: 14pt;
 }
 
+/* Links must be black and have no text-decorations
+ * This is primarily intended for the navigaion bar */
 a {
   text-decoration: none;
   color: black;
 }
 
+/* Navigation bar rules: 
+ * No Margin
+ * Flex-box display
+ * Width takes up the entirity of the body
+ * Space around the entire page
+ * Uses Arial Font
+ * font-size 18pt
+ */
 #nav-bar {
   margin: 0;
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: space-around;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18pt;
 }
 
-/* Mobile support */
+/* When the screen shrinks to a specific size (intended for mobile) */
 @media screen and (max-width: 1240px) {
 
-  /* nav_bar is smaller and goes vertical instead of horizontal */
+  /* nav_bar is smaller and goes vertical instead of horizontal
+   * nav_bar is also alligned at the left instead of around the apge */
   #nav-bar {
     display: flex;
     flex-direction: column;

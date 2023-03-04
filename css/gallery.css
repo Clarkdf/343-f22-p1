@@ -2,6 +2,13 @@
  * author: David Clark
  */
 
+/* Main page rules:
+ * Flex display
+ * display images ina  row
+ * space evenly in the page
+ * wrap (so if the page shrinks, the rows change)
+ * have a gap of 5rem in between pictures
+ */
 main {
     display: flex;
     flex-direction: row;
@@ -10,24 +17,26 @@ main {
     gap: 5rem;
 }
 
+/* Each figure has a box should be at this size*/ 
 figure {
     width: 20rem;
     height: 20rem;
 }
 
+/* image takes up the entirity of the figure size */
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
 
-/* Mobile support */
+/* When the screen shrinks to a specific size (intended for mobile) */
 @media screen and (max-width: 1240px) {
 
 
     /* Displays from top to bottom (rather than left-to-right)*/
     main {
         flex-direction: column;
-        gap: 2rem;
+        gap: 2rem; /* Smaller gap */
     }
 }

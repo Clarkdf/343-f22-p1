@@ -2,22 +2,26 @@
  * author: David Clark
  */
 
+ /* Pads top (to separate from nav-bar)
+  * Shrinks the picture down */
 img {
     padding-top: 35px;
     width: 75%;
 }
 
+/* Flex display, centers the picture */
 div {
     display: flex;
     justify-content: center;
 }
 
+/* Centers text. */
 h1 {
     text-align: center;
 }
 
 
-/* Mobile support */
+/* When the screen shrinks to a specific size (intended for mobile) */
 @media screen and (max-width: 1240px) {
     /* Image is enlarged */
     img {
@@ -27,6 +31,5 @@ h1 {
     /* Page is now left-oriented instead of center oriented */
     div {
         justify-content: flex-start;
-        align-items: flex-start;
     }
 }
