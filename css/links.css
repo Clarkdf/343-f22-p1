@@ -11,7 +11,6 @@ ul {
 
 /* List items rules (buttons on the link page):
  * Solid border
- * rounded border edges
  * Margin on the bottom
  * Black color
  * aligned at the center (may change this)
@@ -20,12 +19,11 @@ ul {
  */
 li {
     border-style:solid;
-    border-radius: 10%;
     margin-bottom: 15vh;
     color:black;
     text-align: center;
-    border-color: burlywood;
-    background-color: #f8eed0;;
+    border-color: #fad564;
+    background-color: #fbf7ea;
 }
 
 
