@@ -50,6 +50,11 @@ a {
   font-size: 18pt;
 }
 
+/* The current page in the nav-bar is underlined */
+a.current {
+  text-decoration: underline;
+}
+
 /* When the screen shrinks to a specific size (intended for mobile) */
 @media screen and (max-width: 1240px) {
 
