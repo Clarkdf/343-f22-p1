@@ -27,7 +27,7 @@ a {
   color: black;
 }
 
-#nav_bar {
+#nav-bar {
   margin: 0;
   display: flex;
   width: 100%;
@@ -42,7 +42,7 @@ a {
 @media screen and (max-width: 1240px) {
 
   /* nav_bar is smaller and goes vertical instead of horizontal */
-  #nav_bar {
+  #nav-bar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
